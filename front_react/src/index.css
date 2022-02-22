@@ -1,12 +1,14 @@
 /* general variables */
 :root {
   --general-font: "Lato", sans-serif;
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
-  --black-color: #030303;
+  --dark-primary-color: #242424;
+  --shakespeare-blue-primary-color: #48add6;
+  --cerulean-blue-secondary-color: #275db3;
+  --black-color: #222222;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
   --white-color: #ffffff;
+  --nav-loc: 2;
 }
 
 /* general style */
@@ -15,4 +17,6 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  color: #ffffff;
+  text-decoration: none;
 }
