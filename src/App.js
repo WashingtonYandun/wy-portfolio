@@ -1,7 +1,7 @@
-import "./App.css";
+import React from "react";
 
-function App() {
-    return <div className="App"> Hola </div>;
-}
+const App = () => {
+    return <div>lorem ipson dolor dfafdsfadfadf</div>;
+};
 
 export default App;
