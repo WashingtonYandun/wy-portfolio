@@ -15,7 +15,7 @@
     --dark-blue: #003d5c;
     --sky-blue: #00bcd4;
     --grey-color: #7c7c7b;
-    --white-color: #f5f5f5;
+    --white-color: #f1faeecc;
 
     --large-width: 75%;
     --medium-width: 86%;
@@ -23,6 +23,11 @@
     --max-width: 100%;
 
     --general-transition: all 0.3s ease;
+    --basic-gradient: linear-gradient(
+        to right,
+        var(--dark-blue),
+        var(--sky-blue)
+    );
 }
 
 body {
@@ -81,6 +86,10 @@ a:hover {
     color: var(--white-color);
 }
 
+.text-light {
+    color: var(--white-color);
+}
+
 .btn {
     width: max-content;
     display: inline-block;
@@ -98,7 +107,7 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--dark-blue);
+    background: var(--basic-gradient);
     color: var(--dark-bg);
 }
 
