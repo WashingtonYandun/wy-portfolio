@@ -13,16 +13,17 @@ export const Header = () => {
                 <div className="container header__container">
                     <h5>Hello there</h5>
                     <h1>I'm Washington Yandun</h1>
-                    <h5 className="text-light">Junior Developer</h5>
+                    <h5 className="text-light">Software Enginering Student</h5>
                     <Cbtn />
                     <HeaderSocials />
-                    <div className="wmym">
-                        <img src={ME} alt="me" />
-                    </div>
-
                     <a href="#contact" className="scroll__down">
                         <FiArrowDown />
+                        <FiArrowDown />
+                        <FiArrowDown />
                     </a>
+                    <div className="wmym">
+                        <img src={ME} alt="me" className="me" />
+                    </div>
                 </div>
             </header>
         </>

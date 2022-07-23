@@ -32,7 +32,7 @@ header {
     content: "";
     width: 2px;
     height: 2rem;
-    background: var(--dark-blue);
+    background: var(--sky-blue);
 }
 
 .wmym {
@@ -42,10 +42,35 @@ header {
     position: absolute;
     left: calc(50% - 10rem);
 }
-
+.me {
+    border-radius: 50%;
+}
 .scroll__down {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
     position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
+    right: 0rem;
+    bottom: 3rem;
     font-size: 1rem;
+}
+
+/* -------------------------------- Responsive -------------------------------- */
+/* Tablets (medium devices) */
+@media screen and (max-width: 601px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* Mobiles (small devices) */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
 }

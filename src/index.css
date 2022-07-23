@@ -35,10 +35,6 @@
     display: none;
 }
 
-body {
-    background: var(--dark-bg);
-}
-
 h1,
 h2,
 h3,
@@ -56,6 +52,14 @@ img {
     object-fit: cover;
 }
 
+/*Put the txture.svg as a background image*/
+body {
+    background: var(--dark-bg);
+    background-image: url("./assets/Sprinkle.svg");
+    background-repeat: repeat;
+    line-height: 1.7;
+}
+
 /* -------------------------------- Important Basic Styles -------------------------------- */
 
 .container {
@@ -67,7 +71,7 @@ img {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: var(--dark-blue);
+    color: var(--sky-blue);
 }
 section {
     margin-top: 8rem;
@@ -84,7 +88,7 @@ section > h2 {
 }
 
 a {
-    color: var(--dark-blue);
+    color: var(--sky-blue);
     transition: var(--general-transition);
 }
 
@@ -99,10 +103,10 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--dark-blue);
+    color: var(--sky-blue);
     padding: 0.75rem 1.25rem;
     border-radius: 0.4rem;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--sky-blue);
     transition: var(--general-transition);
 }
 
