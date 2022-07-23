@@ -16,15 +16,14 @@ export const Header = () => {
                     <h5 className="text-light">Junior Developer</h5>
                     <Cbtn />
                     <HeaderSocials />
-                </div>
+                    <div className="wmym">
+                        <img src={ME} alt="me" />
+                    </div>
 
-                <div className="wmym">
-                    <img src={ME} alt="me" />
+                    <a href="#contact" className="scroll__down">
+                        Scroll
+                    </a>
                 </div>
-
-                <a href="#contact" className="scrolldown">
-                    Scroll
-                </a>
             </header>
         </>
     );
