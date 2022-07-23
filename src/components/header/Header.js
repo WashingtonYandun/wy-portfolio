@@ -1,9 +1,9 @@
 import React from "react";
 import Cbtn from "./Cbtn";
 import HeaderSocials from "./HeaderSocials";
+import { FiArrowDown } from "react-icons/fi";
 
 import "./Header.css";
-
 import ME from "../../assets/ascii wmym.jpg";
 
 export const Header = () => {
@@ -21,7 +21,7 @@ export const Header = () => {
                     </div>
 
                     <a href="#contact" className="scroll__down">
-                        Scroll
+                        <FiArrowDown />
                     </a>
                 </div>
             </header>
