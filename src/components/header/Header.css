@@ -43,7 +43,7 @@ header {
     left: calc(50% - 10rem);
 }
 .me {
-    border-radius: 50%;
+    border-radius: 2rem;
 }
 .scroll__down {
     display: flex;

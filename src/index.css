@@ -8,7 +8,6 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
 }
-
 :root {
     --dark-bg: #0e0e0d;
     --dark-blue: #003d5c;
@@ -21,7 +20,7 @@
     --small-width: 90%;
     --max-width: 100%;
 
-    --general-transition: all 0.3s ease;
+    --general-transition: all 0.3s linear;
     --basic-gradient: linear-gradient(
         to right,
         var(--dark-blue),
@@ -30,13 +29,11 @@
 
     --navbar-z-index: 10;
 }
-
 /* do not display the scrollbar */
 /* maybe i willmodify thisin the future */
 ::-webkit-scrollbar {
     display: none;
 }
-
 h1,
 h2,
 h3,
@@ -47,13 +44,11 @@ h6 {
     margin: 0;
     color: var(--white-color);
 }
-
 img {
     display: block;
     width: var(--max-width);
     object-fit: cover;
 }
-
 /*Put the txture.svg as a background image*/
 body {
     background: var(--dark-bg);
@@ -61,15 +56,12 @@ body {
     background-repeat: repeat;
     line-height: 1.7;
 }
-
 /* -------------------------------- Important Basic Styles -------------------------------- */
-
 .container {
     width: var(--large-width);
     max-width: var(--max-width);
     margin: 0 auto;
 }
-
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -79,30 +71,24 @@ section {
     margin-top: 8rem;
     height: 100vh;
 }
-
 section > h2,
 section > h5 {
     text-align: center;
 }
-
 section > h2 {
     color: var(--sky-blue);
     margin-bottom: 3rem;
 }
-
 a {
     color: var(--sky-blue);
     transition: var(--general-transition);
 }
-
 a:hover {
     color: var(--white-color);
 }
-
 .text-light {
     color: var(--white-color);
 }
-
 .btn {
     width: max-content;
     display: inline-block;
@@ -112,19 +98,16 @@ a:hover {
     border: 2px solid var(--sky-blue);
     transition: var(--general-transition);
 }
-
 .btn:hover {
     color: var(--white-color);
     background: var(--dark-bg);
     border-color: transparent;
 }
-
 .btn-primary {
     border: 2px solid var(--dark-blue);
     background: var(--basic-gradient);
     color: var(--dark-bg);
 }
-
 /* -------------------------------- Responsive -------------------------------- */
 /*Tablets (medium devices)*/
 @media screen and (max-width: 1024px) {
@@ -136,7 +119,6 @@ a:hover {
         margin-top: 6rem;
     }
 }
-
 /*Mobiles (small devices)*/
 @media screen and (max-width: 600px) {
     .container {
