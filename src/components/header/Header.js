@@ -1,4 +1,3 @@
-import React from "react";
 import Cbtn from "./Cbtn";
 import HeaderSocials from "./HeaderSocials";
 import { FiArrowDown } from "react-icons/fi";
@@ -9,7 +8,7 @@ import ME from "../../assets/ascii wmym.jpg";
 export const Header = () => {
     return (
         <>
-            <header>
+            <header id="home">
                 <div className="container header__container">
                     <h5>Hello there</h5>
                     <h1>I'm Washington Yandun</h1>

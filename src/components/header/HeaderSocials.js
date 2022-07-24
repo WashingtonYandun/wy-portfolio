@@ -1,6 +1,6 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { VscGithub } from "react-icons/vsc";
 
 const HeaderSocials = () => {
     return (
@@ -11,7 +11,7 @@ const HeaderSocials = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <BsGithub />
+                    <VscGithub />
                 </a>
 
                 <a
@@ -19,7 +19,7 @@ const HeaderSocials = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <BsLinkedin />
+                    <AiOutlineLinkedin />
                 </a>
             </div>
         </>
