@@ -38,7 +38,7 @@
 }
 .about__card:hover {
     background: transparent;
-    background-color: transparent;
+    backdrop-filter: blur(3px);
     border-color: var(--sky-blue);
     color: var(--sky-blue);
 }

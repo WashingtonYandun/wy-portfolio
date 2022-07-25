@@ -100,13 +100,19 @@ a:hover {
 }
 .btn:hover {
     color: var(--white-color);
-    background: var(--dark-bg);
-    border-color: transparent;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 2px solid var(--white-color);
 }
 .btn-primary {
     border: 2px solid var(--dark-blue);
     background: var(--basic-gradient);
     color: var(--dark-bg);
+}
+.btn-primary:hover {
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 2px solid var(--dark-blue);
 }
 /* -------------------------------- Responsive -------------------------------- */
 /*Tablets (medium devices)*/
