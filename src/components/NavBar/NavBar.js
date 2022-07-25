@@ -27,6 +27,13 @@ const NavBar = () => {
                     <SiAboutdotme />
                 </a>
                 <a
+                    href="#skills"
+                    onClick={() => setActiveNav("#skills")}
+                    className={activeNav === "#skills" ? "active" : ""}
+                >
+                    <SiAboutdotme />
+                </a>
+                <a
                     href="#portfolio"
                     onClick={() => setActiveNav("#portfolio")}
                     className={activeNav === "#portfolio" ? "active" : ""}
