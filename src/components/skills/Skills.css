@@ -32,7 +32,6 @@
 .skills__details-icon {
     color: var(--sky-blue);
 }
-
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
 @media screen and (max-width: 860px) {
@@ -45,7 +44,6 @@
         margin: 0 auto;
     }
 }
-
 /* Mobiles (small devices) */
 @media screen and (max-width: 600px) {
     .skills__container {
