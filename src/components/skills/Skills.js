@@ -39,7 +39,7 @@ export const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="skills__no-tech">
+                    <div className="skills__tech">
                         <h3>Extra Skills</h3>
                         <div className="skills__content">
                             <article className="skills__details">
@@ -48,23 +48,23 @@ export const Skills = () => {
                             </article>
                             <article className="skills__details">
                                 <MdDoneAll className="skills__details-icon" />
-                                <h4>Git/Github</h4>
+                                <h4>Git</h4>
                             </article>
                             <article className="skills__details">
                                 <MdDoneAll className="skills__details-icon" />
-                                <h4>SQL/MongoDB</h4>
+                                <h4>SQL</h4>
                             </article>
                             <article className="skills__details">
                                 <MdDoneAll className="skills__details-icon" />
-                                <h4>npm/pip</h4>
+                                <h4>npm</h4>
                             </article>
                             <article className="skills__details">
                                 <MdDoneAll className="skills__details-icon" />
-                                <h4>Linux Essentials</h4>
+                                <h4>Linux</h4>
                             </article>
                             <article className="skills__details">
                                 <MdDoneAll className="skills__details-icon" />
-                                <h4>Automating Tasks</h4>
+                                <h4>AI</h4>
                             </article>
                         </div>
                     </div>

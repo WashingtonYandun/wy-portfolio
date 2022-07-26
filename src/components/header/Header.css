@@ -50,7 +50,28 @@ header {
     bottom: 3rem;
     font-size: 1.5rem;
 }
+.header__console {
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 3px solid;
+    width: 20ch;
+    animation: typing 2s steps(20),
+        blink 0.5s infinite step-end alternate-reverse;
+    overflow: hidden;
+}
 
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
 @media screen and (max-width: 601px) {
@@ -64,7 +85,9 @@ header {
     header {
         height: 100vh;
     }
-
+    .header__console {
+        font-size: 1.5rem;
+    }
     .header__socials,
     .scroll__down {
         display: none;
