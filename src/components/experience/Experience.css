@@ -43,7 +43,7 @@
 }
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 860px) {
     .experience__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;

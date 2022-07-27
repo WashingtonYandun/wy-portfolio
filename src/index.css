@@ -30,10 +30,11 @@
     --navbar-z-index: 10;
 }
 /* do not display the scrollbar */
-/* maybe i willmodify thisin the future */
+/* maybe i willmodify thisin the future 
 ::-webkit-scrollbar {
     display: none;
 }
+*/
 h1,
 h2,
 h3,
