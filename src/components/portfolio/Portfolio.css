@@ -34,15 +34,9 @@
     text-align: center;
 }
 /* -------------------------------- Responsive -------------------------------- */
-/* Tablets (medium devices) */
+/* Tablets and mobile (medium and small devices) */
 @media screen and (max-width: 860px) {
     .portfolio__container {
         grid-template-columns: 1fr;
-    }
-}
-/* Mobiles (small devices) */
-@media screen and (max-width: 600px) {
-    .portfolio__container {
-        width: 100%;
     }
 }

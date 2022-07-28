@@ -20,13 +20,13 @@ nav a {
     display: flex;
     color: var(--white-color);
     font-size: 1.1rem;
-    color: var(--grey-color);
 }
 nav a:hover {
     background: rgba(0, 0, 0, 0.6);
+    color: var(--grey-color);
 }
 
 nav a.active {
-    background: var(--dark-bg);
-    color: var(--white-color);
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--grey-color);
 }
