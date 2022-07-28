@@ -7,6 +7,8 @@ import { SiAboutdotme } from "react-icons/si";
 import "./NavBar.css";
 
 const NavBar = () => {
+    // this component have to be refactored
+
     const [activeNav, setActiveNav] = useState("#");
 
     return (
