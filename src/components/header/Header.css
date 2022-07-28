@@ -60,7 +60,7 @@ header {
         blink 0.5s infinite step-end alternate-reverse;
     overflow: hidden;
 }
-
+/* -------------------------------- Header animation (animations) -------------------------------- */
 @keyframes typing {
     from {
         width: 0;

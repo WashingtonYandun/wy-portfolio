@@ -2,6 +2,59 @@ import { MdDoneAll } from "react-icons/md";
 import "./Skills.css";
 
 export const Skills = () => {
+    const techSkills = [
+        {
+            id: 1,
+            title: "JavaScript",
+        },
+        {
+            id: 2,
+            title: "React",
+        },
+        {
+            id: 3,
+            title: "C++",
+        },
+        {
+            id: 4,
+            title: "Python",
+        },
+        {
+            id: 5,
+            title: "C#",
+        },
+        {
+            id: 6,
+            title: "Java",
+        },
+    ];
+
+    const extraSkills = [
+        {
+            id: 1,
+            title: "Project Management",
+        },
+        {
+            id: 2,
+            title: "Git",
+        },
+        {
+            id: 3,
+            title: "SQL",
+        },
+        {
+            id: 4,
+            title: "npm",
+        },
+        {
+            id: 5,
+            title: "Linux",
+        },
+        {
+            id: 6,
+            title: "IA",
+        },
+    ];
     return (
         <>
             <section id="skills">
@@ -12,60 +65,34 @@ export const Skills = () => {
                     <div className="skills__tech">
                         <h3>Tech Skills</h3>
                         <div className="skills__content">
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>JavaScript</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>React.js</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>C++</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>Python</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>Java</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>C#</h4>
-                            </article>
+                            {techSkills.map((skill) => {
+                                return (
+                                    <article
+                                        key={skill.id}
+                                        className="skills__details"
+                                    >
+                                        <MdDoneAll className="skills__details-icon" />
+                                        <h4>{skill.title}</h4>
+                                    </article>
+                                );
+                            })}
                         </div>
                     </div>
 
                     <div className="skills__tech">
                         <h3>Extra Skills</h3>
                         <div className="skills__content">
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>Project Managment</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>Git</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>SQL</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>npm</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>Linux</h4>
-                            </article>
-                            <article className="skills__details">
-                                <MdDoneAll className="skills__details-icon" />
-                                <h4>AI</h4>
-                            </article>
+                            {extraSkills.map((skill) => {
+                                return (
+                                    <article
+                                        key={skill.id}
+                                        className="skills__details"
+                                    >
+                                        <MdDoneAll className="skills__details-icon" />
+                                        <h4>{skill.title}</h4>
+                                    </article>
+                                );
+                            })}
                         </div>
                     </div>
                 </div>

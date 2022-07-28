@@ -2,10 +2,30 @@ import { MdOutlineWorkOutline } from "react-icons/md";
 import { BsCodeSlash } from "react-icons/bs";
 import { SiFuturelearn } from "react-icons/si";
 
-import ME2 from "../../assets/ascii wmym2.jpeg";
+import ME2 from "../../assets/ascii_wmym2.jpeg";
 import "./About.css";
 
 const About = () => {
+    const littleCards = [
+        {
+            id: 1,
+            title: "Experience",
+            icon: <MdOutlineWorkOutline className="about__cards-icon" />,
+            desciption: "2+ Months",
+        },
+        {
+            id: 2,
+            title: "Courses",
+            icon: <SiFuturelearn className="about__cards-icon" />,
+            desciption: "5+ completed",
+        },
+        {
+            id: 3,
+            title: "Projects",
+            icon: <BsCodeSlash className="about__cards-icon" />,
+            desciption: "40+ repos",
+        },
+    ];
     return (
         <>
             <section id="about">
@@ -19,21 +39,18 @@ const About = () => {
 
                     <div className="about__content">
                         <div className="about__cards">
-                            <article className="about__card">
-                                <MdOutlineWorkOutline className="about__cards-icon" />
-                                <h5>Experience</h5>
-                                <small>2+ Months</small>
-                            </article>
-                            <article className="about__card">
-                                <SiFuturelearn className="about__cards-icon" />
-                                <h5>Courses</h5>
-                                <small>5+ Done</small>
-                            </article>
-                            <article className="about__card">
-                                <BsCodeSlash className="about__cards-icon" />
-                                <h5>Projects</h5>
-                                <small>40+ Repos</small>
-                            </article>
+                            {littleCards.map((card) => {
+                                return (
+                                    <article
+                                        key={card.id}
+                                        className="about__card"
+                                    >
+                                        {card.icon}
+                                        <h5>{card.title}</h5>
+                                        <small>{card.desciption}</small>
+                                    </article>
+                                );
+                            })}
                         </div>
                         <p>
                             I am a Software Engineering student, who loves his

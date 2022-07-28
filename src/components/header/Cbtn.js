@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/WASHINGTON_YANDUN_CV.pdf";
+import CV from "../../assets/washington_yandun__cv.pdf";
 
 const Cbtn = () => {
     return (

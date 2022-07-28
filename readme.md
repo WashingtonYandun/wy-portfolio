@@ -1,6 +1,7 @@
 # WMYM - First web portfolio
 
--   My first web portfolio (seriusly made) maybe it will change in teh future
+-   My first web portfolio (seriusly made)
+-   Maybe it will change in the future
 
 ## What i used:
 
@@ -19,3 +20,5 @@
 -   BEM metodology in css styles
 -   Reacts Hooks (i decided to this with hooks)
 -   React 18 features and rendering
+-   Responsive design
+-   Mobile first design

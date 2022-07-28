@@ -9,13 +9,14 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    border-radius: 50%;
     background: var(--basic-gradient);
     display: grid;
     place-items: center;
 }
 .about__me img {
     border-radius: 2rem;
+    width: 90%;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--general-transition);
