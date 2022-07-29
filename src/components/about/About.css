@@ -61,6 +61,15 @@
     margin: 2rem 0 2.6rem;
     color: var(--grey-color);
 }
+.about__description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+.about__description a {
+    margin: auto;
+}
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
 @media screen and (max-width: 860px) {

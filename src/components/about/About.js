@@ -52,18 +52,20 @@ const About = () => {
                                 );
                             })}
                         </div>
-                        <p>
-                            I am a Software Engineering student, who loves his
-                            degree. The technologies in which most I highlight
-                            are Java, C#, JavaScript, React and Python, I am a
-                            responsible and committed person in his work,
-                            besides that I am in constant learning since I love
-                            to learn and work.
-                        </p>
+                        <div className="about__description">
+                            <p>
+                                I am a Software Engineering student, who loves
+                                his degree. The technologies in which most I
+                                highlight are Java, C#, JavaScript, React and
+                                Python, I am a responsible and committed person
+                                in his work, besides that I am in constant
+                                learning since I love to learn and work.
+                            </p>
 
-                        <a href="#contact" className="btn btn-primary">
-                            Talk to me
-                        </a>
+                            <a href="#contact" className="btn btn-primary">
+                                Talk to me
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
