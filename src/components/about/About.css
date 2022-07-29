@@ -9,20 +9,23 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 50%;
+    border-radius: 2rem;
     background: var(--basic-gradient);
     display: grid;
     place-items: center;
+    transition: var(--general-transition);
 }
 .about__me img {
     border-radius: 2rem;
     width: 90%;
     overflow: hidden;
-    transform: rotate(10deg);
     transition: var(--general-transition);
 }
+.about__me:hover {
+    border-radius: 50%;
+}
 .about__me img:hover {
-    transform: rotate(-10deg);
+    transform: rotate(10deg);
 }
 .about__cards {
     display: grid;
@@ -30,12 +33,13 @@
     gap: 1.5rem;
 }
 .about__card {
-    background-color: var(--sky-blue);
-    border: 1px solid transparent;
+    background: transparent;
+    border: 1px solid var(--grey-color);
     padding: 1rem;
     text-align: center;
     border-radius: 1rem;
     transition: var(--general-transition);
+    color: var(--white-color);
 }
 .about__card:hover {
     background: transparent;
