@@ -1,0 +1,27 @@
+.contact__container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 2rem;
+}
+.contact__methods {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact__method {
+    background: transparent;
+    border: 1px solid var(--grey-color);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    transition: var(--general-transition);
+    color: var(--white-color);
+}
+.contact__method:hover {
+    border: 1px solid var(--sky-blue);
+    backdrop-filter: blur(3px);
+}
+.contact__method-icon {
+    color: var(--white-color);
+}

@@ -31,7 +31,10 @@ const Contact = () => {
                     <div className="contact__methods">
                         {contactMethod.map((method) => {
                             return (
-                                <article key={method.id}>
+                                <article
+                                    key={method.id}
+                                    className="contact__method"
+                                >
                                     {method.icon}
                                     <h4>{method.name}</h4>
                                     <h5>{method.value}</h5>
@@ -47,7 +50,28 @@ const Contact = () => {
                         })}
                     </div>
 
-                    <form action=""></form>
+                    <form action="">
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Your Name"
+                            required
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Your Email"
+                            required
+                        />
+                        <textarea
+                            name="mssg"
+                            placeholder="Your message"
+                            required
+                        ></textarea>
+                        <button type="submit" className="btn btn-primary">
+                            Send
+                        </button>
+                    </form>
                 </div>
             </section>
         </>

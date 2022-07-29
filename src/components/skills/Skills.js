@@ -31,27 +31,27 @@ export const Skills = () => {
 
     const extraSkills = [
         {
-            id: 1,
+            id: 10,
             title: "Project Management",
         },
         {
-            id: 2,
+            id: 20,
             title: "Git",
         },
         {
-            id: 3,
+            id: 30,
             title: "SQL",
         },
         {
-            id: 4,
+            id: 40,
             title: "npm",
         },
         {
-            id: 5,
+            id: 50,
             title: "Linux",
         },
         {
-            id: 6,
+            id: 60,
             title: "IA",
         },
     ];
