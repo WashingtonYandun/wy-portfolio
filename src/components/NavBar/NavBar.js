@@ -1,59 +1,32 @@
-import { useState } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineContacts } from "react-icons/ai";
 import { AiOutlineRise } from "react-icons/ai";
 import { AiOutlineBranches } from "react-icons/ai";
 import { SiAboutdotme } from "react-icons/si";
+import { AiOutlineLaptop } from "react-icons/ai";
 import "./NavBar.css";
 
 const NavBar = () => {
     // this component have to be refactored
-
-    const [activeNav, setActiveNav] = useState("#");
-
     return (
         <>
             <nav>
-                <a
-                    href="#home"
-                    onClick={() => setActiveNav("#home")}
-                    className={activeNav === "#home" ? "active" : ""}
-                >
+                <a href="#home">
                     <AiOutlineHome />
                 </a>
-                <a
-                    href="#about"
-                    onClick={() => setActiveNav("#about")}
-                    className={activeNav === "#about" ? "active" : ""}
-                >
+                <a href="#about">
                     <SiAboutdotme />
                 </a>
-                <a
-                    href="#skills"
-                    onClick={() => setActiveNav("#skills")}
-                    className={activeNav === "#skills" ? "active" : ""}
-                >
-                    <SiAboutdotme />
+                <a href="#skills">
+                    <AiOutlineLaptop />
                 </a>
-                <a
-                    href="#portfolio"
-                    onClick={() => setActiveNav("#portfolio")}
-                    className={activeNav === "#portfolio" ? "active" : ""}
-                >
+                <a href="#portfolio">
                     <AiOutlineBranches />
                 </a>
-                <a
-                    href="#experience"
-                    onClick={() => setActiveNav("#experience")}
-                    className={activeNav === "#experience" ? "active" : ""}
-                >
+                <a href="#experience">
                     <AiOutlineRise />
                 </a>
-                <a
-                    href="#contact"
-                    onClick={() => setActiveNav("#contact")}
-                    className={activeNav === "#contact" ? "active" : ""}
-                >
+                <a href="#contact">
                     <AiOutlineContacts />
                 </a>
             </nav>

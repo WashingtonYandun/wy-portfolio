@@ -3,7 +3,7 @@ import HeaderSocials from "./HeaderSocials";
 import { FiArrowDown } from "react-icons/fi";
 
 import "./Header.css";
-import ME from "../../assets/ascii wmym.jpg";
+import ME from "../../assets/ascii_wmym.jpg";
 
 export const Header = () => {
     return (

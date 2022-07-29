@@ -2,7 +2,6 @@ import { MdDoneAll } from "react-icons/md";
 import "./Experience.css";
 
 export const Experience = () => {
-    //this component must be refactored
     const typeOfExperience = [
         {
             id: 1,
