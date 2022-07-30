@@ -1,44 +1,13 @@
-/* FORM FOR RECEIVING MESSAGES */
-.contact__form {
-    width: 100%;
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-}
-.contact__input,
-.contact__txt-area {
-    width: 100%;
-    padding: 2rem;
-    border: 1px solid var(--grey-color);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    transition: var(--general-transition);
-    color: var(--white-color);
-    background: transparent;
-}
-.contact__txt-area {
-    background: transparent;
-}
-.contact__input:focus,
-.contact__txt-area:focus {
-    backdrop-filter: blur(5px);
-    border: 1px solid var(--sky-blue);
-}
-.contact__form button {
-    margin-left: auto;
-}
-/* Cards */
 .contact__container {
     width: 50%;
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    display: flex;
     gap: 2rem;
 }
 .contact__methods {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
     gap: 2rem;
-    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
 }
 .contact__method {
     background: transparent;
@@ -48,6 +17,7 @@
     border-radius: 1rem;
     transition: var(--general-transition);
     color: var(--white-color);
+    min-width: 300px;
 }
 .contact__method:hover {
     border: 1px solid var(--sky-blue);
@@ -60,12 +30,10 @@
 /* Mobiles (small devices) */
 @media (max-width: 768px) {
     .contact__container {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
     .contact__methods {
         max-width: 100%;
-    }
-    .contact__form button {
-        margin: auto;
+        flex-direction: column;
     }
 }
