@@ -1,7 +1,7 @@
 # WMYM - First web portfolio
 
 -   My first web portfolio (seriusly made)
--   Maybe it will change in the future
+-   It will change in the future
 
 ## What i used:
 
