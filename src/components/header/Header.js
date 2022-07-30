@@ -10,20 +10,27 @@ export const Header = () => {
         <>
             <header id="home">
                 <div className="container header__container">
-                    <h5>Hello there</h5>
-                    <h1 className="header__console">I'm Washington Yandun</h1>
-                    <h5 className="text-light">Software Enginering Student</h5>
-                    <Cbtn />
-                    <HeaderSocials />
-                    <a href="#contact" className="scroll__down">
-                        <FiArrowDown />
-                        <FiArrowDown />
-                        <FiArrowDown />
-                        <FiArrowDown />
-                    </a>
-
-                    <div className="wmym">
-                        <img src={ME} alt="me" className="me" />
+                    <div className="header__content">
+                        <h5>Hello there</h5>
+                        <h1 className="header__console">
+                            I'm Washington Yandun
+                        </h1>
+                        <h5 className="text-light">
+                            Software Enginering Student
+                        </h5>
+                        <Cbtn />
+                        <div className="wmym">
+                            <img src={ME} alt="me" className="me" />
+                        </div>
+                    </div>
+                    <div className="movers">
+                        <HeaderSocials />
+                        <a href="#contact" className="scroll__down">
+                            <FiArrowDown />
+                            <FiArrowDown />
+                            <FiArrowDown />
+                            <FiArrowDown />
+                        </a>
                     </div>
                 </div>
             </header>

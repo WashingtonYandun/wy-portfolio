@@ -37,7 +37,7 @@ const Contact = () => {
                             className="contact__input"
                         />
                         <input
-                            type="email"
+                            type={"email"}
                             name="email"
                             placeholder="Your Email"
                             required

@@ -1,13 +1,44 @@
+/* FORM FOR RECEIVING MESSAGES */
+.contact__form {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.contact__input,
+.contact__txt-area {
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid var(--grey-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: var(--general-transition);
+    color: var(--white-color);
+    background: transparent;
+}
+.contact__txt-area {
+    background: transparent;
+}
+.contact__input:focus,
+.contact__txt-area:focus {
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--sky-blue);
+}
+.contact__form button {
+    margin-left: auto;
+}
+/* Cards */
 .contact__container {
     width: 50%;
     display: grid;
-    grid-template-columns: 1fr 0.3fr;
+    grid-template-columns: 1fr 0.5fr;
     gap: 2rem;
 }
 .contact__methods {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    max-width: 300px;
 }
 .contact__method {
     background: transparent;
@@ -25,4 +56,16 @@
 .contact__method-icon {
     color: var(--white-color);
 }
-/* FORM FOR RECEIVING MESSAGES */
+/* -------------------------------- Responsive -------------------------------- */
+/* Mobiles (small devices) */
+@media (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
+    .contact__methods {
+        max-width: 100%;
+    }
+    .contact__form button {
+        margin: auto;
+    }
+}
