@@ -22,11 +22,6 @@ nav a {
     font-size: 1.1rem;
 }
 nav a:hover {
-    background: rgba(0, 0, 0, 0.6);
-    color: var(--grey-color);
-}
-
-nav a.active {
-    background: rgba(0, 0, 0, 0.6);
-    color: var(--grey-color);
+    background: var(--sky-blue);
+    color: var(--dark-bg);
 }
