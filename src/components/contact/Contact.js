@@ -28,6 +28,32 @@ const Contact = () => {
                 <h5>Just Message</h5>
                 <h2>Contact Me</h2>
                 <div className="container contact__container">
+                    <form action="" className="contact__form">
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Your Name"
+                            required
+                            className="contact__input"
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Your Email"
+                            required
+                            className="contact__input"
+                        />
+                        <textarea
+                            name="mssg"
+                            placeholder="Your message"
+                            required
+                            className="contact__txt-area"
+                        ></textarea>
+                        <button type="submit" className="btn btn-primary">
+                            Send
+                        </button>
+                    </form>
+
                     <div className="contact__methods">
                         {contactMethod.map((method) => {
                             return (
@@ -49,29 +75,6 @@ const Contact = () => {
                             );
                         })}
                     </div>
-
-                    <form action="">
-                        <input
-                            type="text"
-                            name="name"
-                            placeholder="Your Name"
-                            required
-                        />
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="Your Email"
-                            required
-                        />
-                        <textarea
-                            name="mssg"
-                            placeholder="Your message"
-                            required
-                        ></textarea>
-                        <button type="submit" className="btn btn-primary">
-                            Send
-                        </button>
-                    </form>
                 </div>
             </section>
         </>

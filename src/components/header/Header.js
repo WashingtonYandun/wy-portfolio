@@ -19,7 +19,9 @@ export const Header = () => {
                         <FiArrowDown />
                         <FiArrowDown />
                         <FiArrowDown />
+                        <FiArrowDown />
                     </a>
+
                     <div className="wmym">
                         <img src={ME} alt="me" className="me" />
                     </div>

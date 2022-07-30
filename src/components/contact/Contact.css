@@ -1,7 +1,7 @@
 .contact__container {
     width: 50%;
     display: grid;
-    grid-template-columns: 0.3fr 1fr;
+    grid-template-columns: 1fr 0.3fr;
     gap: 2rem;
 }
 .contact__methods {
@@ -25,3 +25,4 @@
 .contact__method-icon {
     color: var(--white-color);
 }
+/* FORM FOR RECEIVING MESSAGES */
