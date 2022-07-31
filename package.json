@@ -2,7 +2,7 @@
   "homepage": "http://WashingtonYandun.github.io/web-portfolio",
   "name": "web-portfolio",
   "engines": {
-    "node": "14.17.5"
+    "node": "18.1.0"
   },
   "version": "0.1.0",
   "private": true,
