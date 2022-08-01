@@ -1,5 +1,6 @@
 # WMYM - First web portfolio
 
+## There is an error, I dont know why in gh-pages it looks bigger than it looks in localhost (trying to figure it out)
 -   My first web portfolio (seriusly made)
 -   It will change in the future
 
