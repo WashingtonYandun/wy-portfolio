@@ -1,4 +1,4 @@
-# WMYM - First web portfolio
+# WY-PORTFOLIO
 
 -   My first web portfolio (seriusly made)
 -   It will change in the future
