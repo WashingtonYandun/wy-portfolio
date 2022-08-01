@@ -7,7 +7,6 @@ import { AiOutlineLaptop } from "react-icons/ai";
 import "./NavBar.css";
 
 const NavBar = () => {
-    // this component have to be refactored
     return (
         <>
             <nav>
