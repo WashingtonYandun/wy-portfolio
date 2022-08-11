@@ -3,6 +3,10 @@
 -   My first web portfolio (seriusly made)
 -   It will change in the future
 
+# What was my motivation to build a web portfolio
+
+# What i have learn by doing this
+
 ## What i used:
 
 #### Tech
