@@ -1,5 +1,6 @@
 footer {
     border: 1px solid var(--sky-blue);
+    border-bottom: none;
     width: 100%;
     height: 6rem;
     border-radius: 2rem 2rem 0 0;
