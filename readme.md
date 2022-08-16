@@ -1,21 +1,25 @@
 # WY-PORTFOLIO
 
+##### Important aclarations:
+
 -   My first web portfolio (seriusly made)
 -   It will change in the future
 
 ## What was my motivation to build a web portfolio
 
-- Well as we know is a necesity of todays dev's reality to show our habilities in a massive way. So in order to achive that goal i decided to do a simple but interesting web-portfolio in which i will show some of my most interesting projects.
+Well as we know is a necesity of todays dev's reality to show our habilities in a massive way. So in order to achive that goal i decided to do a simple but interesting web-portfolio in which i will show some of my most interesting projects.
 
-# What i have learn by doing this
+## What i have learn by doing this
+
+I have learnt a lot of good practices in frontend technologies such as React and CSS, also I learnt how to manage folders distributions and handle them. 
 
 ## What i used:
 
 #### Tech
 
--   React.js as the center of the project
+-   React.js (as the center of the project)
 -   Create React App (for makign the enviroment of development)
--   JavaScript (obviously)
+-   JavaScript (obviously, i dont use .jsx files, just .js ones)
 -   HTML
 -   CSS (Pure css, no frameworks or libraries, just pure css)
 -   React Icons
