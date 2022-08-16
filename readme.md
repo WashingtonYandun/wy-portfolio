@@ -3,7 +3,9 @@
 -   My first web portfolio (seriusly made)
 -   It will change in the future
 
-# What was my motivation to build a web portfolio
+## What was my motivation to build a web portfolio
+
+- Well as we know is a necesity of todays dev's reality to show our habilities in a massive way. So in order to achive that goal i decided to do a simple but interesting web-portfolio in which i will show some of my most interesting projects.
 
 # What i have learn by doing this
 
