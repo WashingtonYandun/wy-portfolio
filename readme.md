@@ -2,8 +2,8 @@
 
 >Important aclarations:
 
--   My first web portfolio (seriusly made)
--   It will change in the future
+-   My first web portfolio
+-   It will change in the future (i wanna implement a blog on it)
 
 ___
 
