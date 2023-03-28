@@ -16,7 +16,7 @@ const Contact = () => {
         {
             id: 2,
             name: "Whatsapp",
-            value: "(+593) 09 9925 6581",
+            value: "(+593) 099 925 6581",
             icon: <AiOutlineWhatsApp className="contact__method-icon" />,
             link: "https://api.whatsapp.com/send?phone=593999256581",
             description: "Send me a dm",

@@ -5,23 +5,23 @@ export const Skills = () => {
     const techSkills = [
         {
             id: 1,
-            title: "JavaScript",
+            title: "Backend: C#",
         },
         {
             id: 2,
-            title: "React",
+            title: "Frontend: React",
         },
         {
             id: 3,
-            title: "C++",
+            title: "AI: Python (Tenssoflow)",
         },
         {
             id: 4,
-            title: "Python",
+            title: "TypeScript",
         },
         {
             id: 5,
-            title: "C#",
+            title: "DB: SQL Server",
         },
         {
             id: 6,
@@ -40,11 +40,11 @@ export const Skills = () => {
         },
         {
             id: 30,
-            title: "SQL",
+            title: "Excel",
         },
         {
             id: 40,
-            title: "npm",
+            title: "Visual Studio",
         },
         {
             id: 50,
@@ -52,7 +52,7 @@ export const Skills = () => {
         },
         {
             id: 60,
-            title: "IA",
+            title: "TFS",
         },
     ];
     return (

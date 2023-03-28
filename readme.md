@@ -1,35 +1,35 @@
 # WY-PORTFOLIO
 
->Important aclarations:
+> Important aclarations:
 
 -   My first web portfolio
 -   It will change in the future (i wanna implement a blog on it)
 
-___
+---
 
-## What was my motivation to build a web portfolio
+## What was my motivation to build a web portfolio?
 
-Well as we know is a necesity of todays dev's reality to show our habilities in a massive way. So in order to achive that goal i decided to do a simple but interesting web-portfolio in which i will show some of my most interesting projects.
+Well as we already know is a necesity of todays webdev's reality and Software Enginners in general to show our habilities in a massive way. In order to achive that goal i decided to do a simple but interesting web-portfolio in which i will show some of my most projects.
 
-___
+---
 
-## What i have learn by doing this
+## What i have learned by doing this
 
-I have learnt a lot of good practices in frontend technologies such as React and CSS, also I learnt how to manage folders distributions and handle them. 
+I have learnt a lot of good practices in frontend technologies such as React and CSS, also I learnt how to manage folders distributions and handle them.
 
-____
+---
 
-## What i used:
+## What i used?:
 
 #### Tech
 
 -   React.js (as the center of the project)
--   Create React App (for makign the enviroment of development)
--   JavaScript (obviously, i dont use .jsx files, just .js ones)
+-   Create React App (~~for makign the enviroment of development, not ideal anymore~~)
+-   JavaScript (obviously, just .js files)
 -   HTML
 -   CSS (Pure css, no frameworks or libraries, just pure css)
 -   React Icons
--   Google fonts
+-   Google fonts/icons
 
 #### Metodology
 
@@ -38,8 +38,8 @@ ____
 -   Responsive design
 -   Mobile first design
 
-___
+---
 
 ## More stuff done by me
 
->My "Trash bin org" - [Washington Yandun](https://github.com/WMYM-Experimental)
+> My "Bin org" - [Washington Yandun](https://github.com/WMYM-Experimental)

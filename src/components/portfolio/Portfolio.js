@@ -17,9 +17,9 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            title: "Snake game made in Java",
+            title: "Park Map: .NET (full stack app)",
             image: "https://raw.githubusercontent.com/WashingtonYandun/Snake.java/main/samples/playing.png",
-            repo: "https://github.com/WashingtonYandun/CelciusAndFahrenheit_AI.py",
+            repo: "https://github.com/WashingtonYandun/ParkMap",
         },
         {
             id: 4,

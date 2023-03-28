@@ -12,6 +12,7 @@ nav {
     gap: 0.5rem;
     border-radius: 3rem;
     backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 nav a {
     background-color: transparent;

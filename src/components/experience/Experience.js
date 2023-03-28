@@ -5,29 +5,29 @@ export const Experience = () => {
     const typeOfExperience = [
         {
             id: 1,
-            title: "Project Management",
+            title: "Inpsercom: Project Management trainee",
             list: {
-                1: "Project Management",
-                2: "Project Management",
-                3: "Project Management",
+                1: "ISO 9001:2015 documentation",
+                2: "Excel reporting and analysis",
+                3: "Solution recommendations",
             },
         },
         {
             id: 2,
-            title: "Artificial Intelligence",
+            title: "Inpsercom: Backend Developer trainee",
             list: {
-                1: "Looking for more",
-                2: "Looking for more",
-                3: "Looking for more",
+                1: "Apis Creation",
+                2: "Apis Integration",
+                3: "Solution recommendations",
             },
         },
         {
             id: 3,
-            title: "Web Development",
+            title: "UDLA: Software Developer trainee",
             list: {
-                1: "Looking for more",
-                2: "Looking for more",
-                3: "Looking for more",
+                1: "Windows Service processor creation",
+                2: "Apis Creation",
+                3: "Apis Integration",
             },
         },
     ];
