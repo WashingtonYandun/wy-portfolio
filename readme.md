@@ -19,9 +19,9 @@ I have learnt a lot of good practices in frontend technologies such as React and
 
 ---
 
-## What i used?:
+## What I used?:
 
-#### Tech
+#### Web tech
 
 -   React.js (as the center of the project)
 -   Create React App (~~for makign the enviroment of development, not ideal anymore~~)
