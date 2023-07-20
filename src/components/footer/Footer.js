@@ -1,5 +1,7 @@
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { VscGithub } from "react-icons/vsc";
+import { AiOutlineInstagram } from "react-icons/ai";
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -14,7 +16,13 @@ const Footer = () => {
             id: 2,
             description: "LinkedIn",
             icon: <AiOutlineLinkedin />,
-            url: "https://github.com/WashingtonYandun",
+            url: "https://ec.linkedin.com/in/washington-yandun-3a95b2226",
+        },
+        {
+            id: 2,
+            description: "Instagram",
+            icon: <AiOutlineInstagram />,
+            url: "https://www.instagram.com/washington.yandun/",
         },
     ];
     return (

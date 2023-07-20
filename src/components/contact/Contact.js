@@ -1,5 +1,6 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 import "./Contact.css";
 
@@ -19,6 +20,14 @@ const Contact = () => {
             value: "(+593) 099 925 6581",
             icon: <AiOutlineWhatsApp className="contact__method-icon" />,
             link: "https://api.whatsapp.com/send?phone=593999256581",
+            description: "Send me a dm",
+        },
+        {
+            id: 3,
+            name: "Instagram",
+            value: "washington.yandun",
+            icon: <AiOutlineInstagram className="contact__method-icon" />,
+            link: "https://www.instagram.com/washington.yandun/",
             description: "Send me a dm",
         },
     ];

@@ -5,54 +5,54 @@ export const Skills = () => {
     const techSkills = [
         {
             id: 1,
-            title: "Backend: C#",
+            title: "Backend: .Net (C#), Python, Java Springboot, Node.js",
         },
         {
             id: 2,
-            title: "Frontend: React",
+            title: "Frontend: React, Html, Css, JavaScript",
         },
         {
             id: 3,
-            title: "AI: Python (Tenssoflow)",
+            title: "Artificial Intelligence: Python, C++, Cuda",
         },
         {
             id: 4,
-            title: "TypeScript",
+            title: "Database: SQL server, Mongo",
         },
         {
             id: 5,
-            title: "DB: SQL Server",
+            title: "Data Analysis: Python, Excel, Power Bi",
         },
         {
             id: 6,
-            title: "Java",
+            title: "Models and Simulation; Python, Numpy, Pandas, Matplotlib",
         },
     ];
 
     const extraSkills = [
         {
             id: 10,
-            title: "Project Management",
+            title: "Project Management using Zoho",
         },
         {
             id: 20,
-            title: "Git",
+            title: "Version control system: Git, TFS",
         },
         {
             id: 30,
-            title: "Excel",
+            title: "Design Patterns and SOLID Principles",
         },
         {
             id: 40,
-            title: "Visual Studio",
+            title: "Jupyter Notebooks/Conda",
         },
         {
             id: 50,
-            title: "Linux",
+            title: "UML diagrams",
         },
         {
             id: 60,
-            title: "TFS",
+            title: "Scrum",
         },
     ];
     return (

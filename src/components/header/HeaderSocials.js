@@ -14,7 +14,7 @@ const HeaderSocials = () => {
             id: 2,
             description: "LinkedIn",
             icon: <AiOutlineLinkedin />,
-            url: "https://github.com/WashingtonYandun",
+            url: "https://ec.linkedin.com/in/washington-yandun-3a95b2226",
         },
     ];
 
