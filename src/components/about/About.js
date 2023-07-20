@@ -9,23 +9,24 @@ const About = () => {
     const littleCards = [
         {
             id: 1,
-            title: "Experience",
+            title: "Work experience",
             icon: <MdOutlineWorkOutline className="about__cards-icon" />,
-            desciption: "2+ Months",
+            desciption: "1+ Year",
         },
         {
             id: 2,
             title: "Courses",
             icon: <SiFuturelearn className="about__cards-icon" />,
-            desciption: "5+ completed",
+            desciption: "10+ completed",
         },
         {
             id: 3,
-            title: "Projects",
+            title: "Projects on Github",
             icon: <BsCodeSlash className="about__cards-icon" />,
             desciption: "40+ repos",
         },
     ];
+
     return (
         <>
             <section id="about">
@@ -56,10 +57,10 @@ const About = () => {
                             <p>
                                 I am a Software Engineering student, who loves
                                 his degree. The technologies in which most I
-                                highlight are Java, C#, JavaScript, React and
-                                Python, I am a responsible and committed person
+                                highlight are .Net, Python, JavaScript, React and
+                                Java, I am a responsible and committed person
                                 in his work, besides that I am in constant
-                                learning since I love to learn and work.
+                                learning since I love to learn as much as I can.
                             </p>
 
                             <a href="#contact" className="btn btn-primary">

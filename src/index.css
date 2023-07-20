@@ -60,7 +60,7 @@ img {
 /*Put the txture.svg as a background image*/
 body {
     background: var(--dark-bg);
-    background-image: url("./assets/sprinkle.svg");
+    background-image: url("./assets/Sprinkle.svg");
     background-repeat: repeat;
     line-height: 1.7;
 }

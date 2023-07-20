@@ -24,10 +24,10 @@ I have learnt a lot of good practices in frontend technologies such as React and
 #### Web tech
 
 -   React.js (as the center of the project)
--   Create React App (~~for makign the enviroment of development, not ideal anymore~~)
--   JavaScript (obviously, just .js files)
+-   Create React App
+-   JavaScript
 -   HTML
--   CSS (Pure css, no frameworks or libraries, just pure css)
+-   CSS
 -   React Icons
 -   Google fonts/icons
 
