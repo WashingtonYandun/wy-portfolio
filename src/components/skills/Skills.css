@@ -29,8 +29,20 @@
     column-gap: 2rem;
     text-align: center;
 }
+.skills__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .skills__details-icon {
     color: var(--sky-blue);
+}
+.skills__tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */

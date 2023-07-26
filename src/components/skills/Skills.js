@@ -9,7 +9,7 @@ export const Skills = () => {
         },
         {
             id: 2,
-            title: "Frontend: React, Html, Css, JavaScript",
+            title: "Frontend: React, Html, Css, JavaScript, SASS, Blazor",
         },
         {
             id: 3,
@@ -25,18 +25,18 @@ export const Skills = () => {
         },
         {
             id: 6,
-            title: "Models and Simulation; Python, Numpy, Pandas, Matplotlib",
+            title: "Models and Simulation: Python, Jupyter",
         },
     ];
 
     const extraSkills = [
         {
             id: 10,
-            title: "Project Management using Zoho",
+            title: "Software architecture patterns and architecture patterns",
         },
         {
             id: 20,
-            title: "Version control system: Git, TFS",
+            title: "Git, Team Foundation Server, Github",
         },
         {
             id: 30,
@@ -44,15 +44,15 @@ export const Skills = () => {
         },
         {
             id: 40,
-            title: "Jupyter Notebooks/Conda",
+            title: "Project Management using Zoho",
         },
         {
             id: 50,
-            title: "UML diagrams",
+            title: "UML diagrams with PlantUML",
         },
         {
             id: 60,
-            title: "Scrum",
+            title: "Scrum, Testing with JMeter",
         },
     ];
     return (
@@ -62,6 +62,7 @@ export const Skills = () => {
                 <h2>My Skills</h2>
 
                 <div className="container skills__container">
+
                     <div className="skills__tech">
                         <h3>Tech Skills</h3>
                         <div className="skills__content">
@@ -72,7 +73,7 @@ export const Skills = () => {
                                         className="skills__details"
                                     >
                                         <MdDoneAll className="skills__details-icon" />
-                                        <h4>{skill.title}</h4>
+                                        <h5 className="skill__title">{skill.title}</h5>
                                     </article>
                                 );
                             })}
@@ -89,12 +90,13 @@ export const Skills = () => {
                                         className="skills__details"
                                     >
                                         <MdDoneAll className="skills__details-icon" />
-                                        <h4>{skill.title}</h4>
+                                        <h5 className="skill__title">{skill.title}</h5>
                                     </article>
                                 );
                             })}
                         </div>
                     </div>
+
                 </div>
             </section>
         </>

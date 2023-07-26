@@ -19,7 +19,7 @@ const Footer = () => {
             url: "https://ec.linkedin.com/in/washington-yandun-3a95b2226",
         },
         {
-            id: 2,
+            id: 3,
             description: "Instagram",
             icon: <AiOutlineInstagram />,
             url: "https://www.instagram.com/washington.yandun/",
