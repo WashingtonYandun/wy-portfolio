@@ -55,16 +55,16 @@ const About = () => {
                         </div>
                         <div className="about__description">
                             <p>
-                                I am a Software Engineering student, who loves
-                                his degree. The technologies in which most I
-                                highlight are .Net, Python, JavaScript, React and
-                                Java, I am a responsible and committed person
-                                in his work, besides that I am in constant
-                                learning since I love to learn as much as I can.
+                                I'm Washington Yandun, a Software Engineering
+                                student with expertise in .Net (C#), Python,
+                                JavaScript, CSS, SQL, React, Mongodb, and Java.
+                                Passionate about software, I thrive on embracing
+                                new challenges to keep learning and achieving
+                                goals which is what I love the most.
                             </p>
 
                             <a href="#contact" className="btn btn-primary">
-                                Talk to me
+                                Let's talk
                             </a>
                         </div>
                     </div>
