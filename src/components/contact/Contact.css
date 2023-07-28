@@ -5,6 +5,7 @@
 .contact__container {
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 .contact__methods {
@@ -21,7 +22,7 @@
     border-radius: 1rem;
     transition: var(--general-transition);
     color: var(--white-color);
-    min-width: 300px;
+    min-width: 280px;
 }
 .contact__method:hover {
     border: 1px solid var(--sky-blue);
@@ -32,12 +33,17 @@
 }
 /* -------------------------------- Responsive -------------------------------- */
 /* Mobiles (small devices) */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .contact__container {
         flex-direction: column;
     }
     .contact__methods {
         max-width: 100%;
         flex-direction: column;
+    }
+}
+@media (max-width: 680px) {
+    .link-to {
+        display: none;
     }
 }

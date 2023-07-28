@@ -11,7 +11,7 @@ export const Header = () => {
             <header id="home">
                 <div className="container header__container">
                     <div className="header__content">
-                        <h5>Hello there</h5>
+                        <h5>Hello there! &#10024;</h5>
                         <h1 className="header__console">
                             I'm Washington Yandun
                         </h1>
@@ -23,6 +23,7 @@ export const Header = () => {
                             <img src={ME} alt="me" className="me" />
                         </div>
                     </div>
+
                     <div className="movers">
                         <HeaderSocials />
                         <a href="#contact" className="scroll__down">

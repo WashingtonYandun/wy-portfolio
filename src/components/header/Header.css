@@ -96,11 +96,13 @@ header {
 /* Mobiles (small devices) */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 100%;
     }
     .header__console {
         font-size: 1.5rem;
     }
+}
+@media screen and (max-width: 460px) {
     .header__socials,
     .scroll__down {
         display: none;

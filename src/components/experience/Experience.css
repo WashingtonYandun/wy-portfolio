@@ -10,7 +10,7 @@
     background: transparent;
     border-radius: 1% 1% 2rem 2rem;
     border: 1px solid var(--sky-blue);
-    height: fit-content;
+    height: 100%;
     transition: var(--general-transition);
 }
 .experience:hover {
@@ -46,20 +46,9 @@
 }
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 975px) {
     .experience__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-    }
-}
-
-/* Mobiles (small devices) */
-@media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
-    .header__socials,
-    .scroll__down {
-        display: none;
     }
 }

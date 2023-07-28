@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { VscGithub } from "react-icons/vsc";
 import "./Portfolio.css";
 
 const Portfolio = () => {
@@ -7,7 +8,7 @@ const Portfolio = () => {
 
     const fetchGitHubProjects = async () => {
         try {
-            const username = "WashingtonYandun"; // Reemplaza con tu nombre de usuario de GitHub
+            const username = "WashingtonYandun";
             const response = await fetch(
                 `https://api.github.com/users/${username}/repos`
             );
@@ -40,6 +41,14 @@ const Portfolio = () => {
         setCurrentIndex(index);
     };
 
+    const formatDate = (dateString) => {
+        const date = new Date(dateString);
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        return `${year}/${month}/${day}`;
+    };
+
     return (
         <section id="portfolio">
             <h5>Most Important projects</h5>
@@ -54,68 +63,86 @@ const Portfolio = () => {
                                 index === currentIndex ? "active" : ""
                             }`}
                             onClick={() => goToProject(index)}
-                        />
+                        ></span>
                     ))}
                 </div>
 
                 <article className="portfolio__project">
                     <div className="project__container">
                         <div className="project__left project__part">
-                            <div className="project__name">
-                                <span>Project Name</span>
-                                {projects[currentIndex]?.name ||
-                                    "Fallback Project Title"}
+                            <div className="project__name flex-col">
+                                <span className="project-desc">
+                                    Project Name
+                                </span>
+                                <span className="project-info">
+                                    {projects[currentIndex]?.name ||
+                                        "Fallback Project Title"}
+                                </span>
                             </div>
 
-                            <div className="project__description">
-                                <span>Description</span>
-                                {projects[currentIndex]?.description ||
-                                    "No description yet"}
+                            <div className="project__description flex-col">
+                                <span className="project-desc">
+                                    Description
+                                </span>
+                                <span className="project-info">
+                                    {projects[currentIndex]?.description ||
+                                        "No description yet"}
+                                </span>
                             </div>
 
-                            <div className="project__lang">
-                                <span>Languaje</span>
-                                {projects[currentIndex]?.language ||
-                                    "No language yet"}
+                            <div className="project__topics flex-col">
+                                <span className="project-desc">Topics</span>
+                                <span className="flex-row row-chain">
+                                    {projects[currentIndex]?.topics.map(
+                                        (topic, index) => (
+                                            <span
+                                                className="project-info project__topic"
+                                                key={index}
+                                            >
+                                                {topic}
+                                            </span>
+                                        )
+                                    )}
+                                </span>
                             </div>
                         </div>
 
                         <div className="project__right project__part">
-                            <div className="project__dates">
-                                <span>Dates</span>
-                                <div className="project__dates-container">
-                                    <div className="project__date">
-                                        {projects[currentIndex]?.pushed_at ||
-                                            "No pushed"}
-                                    </div>
-
-                                    <div className="project__date">
-                                        {projects[currentIndex]?.updated_at ||
-                                            "No update"}
-                                    </div>
+                            <div className="project__dates-container">
+                                <div className="project__date flex-col">
+                                    <span className="project-desc">
+                                        Updated
+                                    </span>
+                                    <span className="project-info">
+                                        {projects[currentIndex]?.updated_at
+                                            ? formatDate(
+                                                  projects[currentIndex]
+                                                      ?.updated_at
+                                              )
+                                            : "No update"}
+                                    </span>
                                 </div>
                             </div>
 
-                            <div className="project__topics">
-                                <span>topics</span>
-                                {projects[currentIndex]?.topics.map(
-                                    (topic, index) => (
-                                        <span
-                                            className="project__topic"
-                                            key={index}
-                                        >
-                                            {topic}
-                                        </span>
-                                    )
-                                )}
+                            <div className="project__lang flex-col">
+                                <span className="project-desc">Languaje</span>
+                                <span className="project-info project__topic">
+                                    {projects[currentIndex]?.language ||
+                                        "No language yet"}
+                                </span>
                             </div>
 
                             <div className="project__link">
                                 <a
+                                    key={currentIndex}
                                     href={projects[currentIndex]?.html_url}
-                                    className="btn btn-primary"
+                                    description="link to project"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="footer__social"
                                 >
-                                    Watch it
+                                    <span className="link-to">Go to</span>
+                                    {<VscGithub />}
                                 </a>
                             </div>
                         </div>
@@ -124,14 +151,14 @@ const Portfolio = () => {
 
                 <div className="slider-controls">
                     <span
-                        className="material-symbols-outlined slider__arrow"
+                        className="material-symbols-outlined slider__arrow btn"
                         onClick={goToPreviousProject}
                     >
                         arrow_back
                     </span>
 
                     <span
-                        className="material-symbols-outlined slider__arrow"
+                        className="material-symbols-outlined slider__arrow btn"
                         onClick={goToNextProject}
                     >
                         arrow_forward

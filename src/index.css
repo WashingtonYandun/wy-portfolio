@@ -115,14 +115,29 @@ a:hover {
     border: 2px solid var(--white-color);
 }
 .btn-primary {
-    border: 2px solid var(--dark-blue);
+    border: 3px solid var(--dark-blue);
     background: var(--basic-gradient);
     color: var(--dark-bg);
 }
 .btn-primary:hover {
     background: transparent;
     backdrop-filter: blur(3px);
-    border: 2px solid var(--dark-blue);
+    border: 3px solid var(--dark-blue);
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+}
+.row-chain {
+    gap: 0.5rem;
 }
 /* -------------------------------- Responsive -------------------------------- */
 /*Tablets (medium devices)*/

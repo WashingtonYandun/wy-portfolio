@@ -15,54 +15,58 @@
     padding: 1.2rem;
     border-radius: 0.5rem;
     transition: var(--general-transition);
-    text-align: center;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 
-    min-width: 300px;
     width: 100%;
     max-width: 100%;
 
     height: 100%;
     max-height: 100%;
-    min-height: 400px;
+    min-height: fit-content;
 }
 .project__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: red;
-    height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    gap: 1rem;
 }
 .project__part {
     display: flex;
-    background-color: #fff;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
     height: 100%;
 }
 .project__left {
-    width: 100%;
-    flex: 2 1 auto;
+    padding-left: 3rem;
+    width: 70%;
+    border-right: 1px solid var(--grey-color);
 }
-.project__left {
+.project__left > div {
     width: 100%;
-    width: 1 1 auto;
+    padding: 1rem;
+    text-overflow: ellipsis;
+}
+.project__right > div {
+    width: 100%;
+    padding: 1rem;
+}
+.project__right {
+    width: 30%;
 }
 .portfolio__project:hover {
     border-color: var(--sky-blue);
     backdrop-filter: blur(3px);
-}
-.portfolio__project .portfolio__img > img {
-    border-radius: 0.1rem;
-    transition: var(--general-transition);
-}
-.portfolio__project .portfolio__img > img:hover {
-    border-radius: 0.5rem;
 }
 .portfolio__project h3 {
     margin: 1rem 1rem;
@@ -85,8 +89,8 @@
 }
 .slider-dot.active {
     background-color: var(--grey-color);
-    transform: scale(1.6);
-    border: 2px solid var(--sky-blue);
+    transform: scale(2);
+    border: 3px solid var(--sky-blue);
 }
 .slider-controls {
     width: 100%;
@@ -100,64 +104,41 @@
     justify-content: space-around;
     align-items: center;
     background-color: transparent;
-}
-.slider__arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--grey-color);
-    padding: 1.2rem;
-    border: 2px solid var(--dark-blue);
-    background: var(--basic-gradient);
-    color: var(--dark-bg);
-    border-radius: 50%;
-}
-.slider__arrow:hover {
-    background: transparent;
-    backdrop-filter: blur(3px);
-    border: 2px solid var(--dark-blue);
-    color: var(--white-color);
 }
 .slider__arrow {
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-self: center;
+    text-align: center;
+    min-width: 150px;
 }
-.slider {
+.slider__arrow:hover {
+    cursor: pointer;
 }
-
-.slider-preview {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    background-color: rgba(0, 0, 0, 0.3);
-    opacity: 0.7;
-    transition: var(--general-transition);
-    z-index: 1;
+.project-desc {
+    font-weight: 600;
+    margin: 0;
+    color: var(--white-color);
+    font-size: 19.2px;
 }
-
-.slider-preview img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid var(--sky-blue);
+.project-info {
+    font-weight: 600;
+    margin: 0;
+    color: var(--white-color);
+    font-size: 13.28px;
 }
-
-.slider-preview:hover {
-    opacity: 1;
+.project__topic {
+    color: var(--sky-blue);
 }
-
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets and mobile (medium and small devices) */
 @media screen and (max-width: 860px) {
     .portfolio__container {
         grid-template-columns: 1fr;
+    }
+    .project__left {
+        padding-left: 0;
     }
 }
 @media screen and (min-width: 768px) {
@@ -182,5 +163,29 @@
     .slider-preview img {
         width: 35px;
         height: 35px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .slider__arrow {
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        min-width: 100px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .project-desc {
+        font-size: 15px;
+    }
+    .project-info {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .row-chain {
+        display: flex;
+        flex-direction: column;
     }
 }
