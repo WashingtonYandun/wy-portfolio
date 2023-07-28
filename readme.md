@@ -19,9 +19,9 @@ I have learnt a lot of good practices in frontend technologies such as React and
 
 ---
 
-## What I used?:
+## What I used?
 
-#### Web tech
+#### Tech Stack
 
 -   React.js (as the center of the project)
 -   Create React App
@@ -30,6 +30,7 @@ I have learnt a lot of good practices in frontend technologies such as React and
 -   CSS
 -   React Icons
 -   Google fonts/icons
+-   Github Api
 
 #### Metodology
 

@@ -60,7 +60,7 @@ const Portfolio = () => {
 
                 <article className="portfolio__project">
                     <div className="project__container">
-                        <div className="project__left">
+                        <div className="project__left project__part">
                             <div className="project__name">
                                 <span>Project Name</span>
                                 {projects[currentIndex]?.name ||
@@ -80,7 +80,7 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        <div className="project__right">
+                        <div className="project__right project__part">
                             <div className="project__dates">
                                 <span>Dates</span>
                                 <div className="project__dates-container">
@@ -97,16 +97,17 @@ const Portfolio = () => {
                             </div>
 
                             <div className="project__topics">
-                                {projects[currentIndex]?.topics.map((topic) => {
-                                    return (
+                                <span>topics</span>
+                                {projects[currentIndex]?.topics.map(
+                                    (topic, index) => (
                                         <span
-                                            class="project__topic"
-                                            key={new Date().getTime()}
+                                            className="project__topic"
+                                            key={index}
                                         >
                                             {topic}
                                         </span>
-                                    );
-                                }) || "No topics yet"}
+                                    )
+                                )}
                             </div>
 
                             <div className="project__link">
