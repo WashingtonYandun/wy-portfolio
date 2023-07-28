@@ -16,7 +16,7 @@ export const Header = () => {
                             I'm Washington Yandun
                         </h1>
                         <h5 className="text-light">
-                            Software Enginering Student
+                            Software Engineering Student
                         </h5>
                         <Cbtn />
                         <div className="wmym">
