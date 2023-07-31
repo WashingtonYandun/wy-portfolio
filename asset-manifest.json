@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/wy-portfolio/static/css/main.0ea1e850.css",
-    "main.js": "/wy-portfolio/static/js/main.334d88bd.js",
+    "main.js": "/wy-portfolio/static/js/main.a793bb37.js",
     "static/media/washington_yandun__cv.pdf": "/wy-portfolio/static/media/washington_yandun__cv.6ec60b26ad6ac4b82959.pdf",
     "static/media/ascii_wmym2.jpeg": "/wy-portfolio/static/media/ascii_wmym2.7ad20717bdf8bfcf5118.jpeg",
     "static/media/ascii_wmym.jpg": "/wy-portfolio/static/media/ascii_wmym.e2614db11b18db66687b.jpg",
     "static/media/Sprinkle.svg": "/wy-portfolio/static/media/Sprinkle.f37a02d8f43ad4ff7361.svg",
     "index.html": "/wy-portfolio/index.html",
     "main.0ea1e850.css.map": "/wy-portfolio/static/css/main.0ea1e850.css.map",
-    "main.334d88bd.js.map": "/wy-portfolio/static/js/main.334d88bd.js.map"
+    "main.a793bb37.js.map": "/wy-portfolio/static/js/main.a793bb37.js.map"
   },
   "entrypoints": [
     "static/css/main.0ea1e850.css",
-    "static/js/main.334d88bd.js"
+    "static/js/main.a793bb37.js"
   ]
 }
