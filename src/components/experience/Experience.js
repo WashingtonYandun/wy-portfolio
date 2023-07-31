@@ -1,4 +1,3 @@
-import { MdDoneAll } from "react-icons/md";
 import "./Experience.css";
 
 export const Experience = () => {
@@ -26,8 +25,8 @@ export const Experience = () => {
             title: "UDLA: Software Developer trainee",
             list: {
                 1: "Windows Service processor creation.",
-                2: "Apis creation and integration (Udemy Business)",
-                3: "UI creation for university virtual platforms.",
+                2: "Apis creation and integration (Udemy Business) .Net 4.6.x and 4.7.x",
+                3: "GUI creation for university virtual platforms.",
             },
         },
     ];
@@ -48,7 +47,6 @@ export const Experience = () => {
                                     {Object.keys(type.list).map((key) => {
                                         return (
                                             <li key={key}>
-                                                <MdDoneAll className="experience__icon" />
                                                 <p>{type.list[key]}</p>
                                             </li>
                                         );
