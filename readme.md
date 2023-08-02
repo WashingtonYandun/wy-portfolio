@@ -1,46 +1,40 @@
 # WY-PORTFOLIO
 
-> Important aclarations:
+> Important clarifications:
 
--   My first web portfolio
--   It will change in the future (i wanna implement a blog on it)
-
----
-
-## What was my motivation to build a web portfolio?
-
-Well as we already know is a necesity of todays webdev's reality and Software Enginners in general to show our habilities in a massive way. In order to achive that goal i decided to do a simple but interesting web-portfolio in which i will show some of my most projects.
+-   This is my first web portfolio.
+-   It will undergo changes in the future, as I plan to implement a blog on it.
 
 ---
 
-## What i have learned by doing this
+## Motivation behind building my web portfolio
 
-I have learnt a lot of good practices in frontend technologies such as React and CSS, also I learnt how to manage folders distributions and handle them.
+Creating a web portfolio has become an essential need for today's web developers and software engineers. It allows us to showcase our skills and projects in a comprehensive and accessible way. With this goal in mind, I decided to develop a simple yet interesting web portfolio to exhibit some of my most significant projects.
 
 ---
 
-## What I used?
+## Key learnings from the project
+
+Throughout the development process, I gained valuable insights into frontend technologies, particularly React and CSS. Additionally, I learned efficient folder distribution and management techniques, which improved the overall organization of the project.
+
+---
+
+## Technologies and methodologies used
 
 #### Tech Stack
 
--   React.js (as the center of the project)
--   Create React App
--   JavaScript
--   HTML
--   CSS
--   React Icons
--   Google fonts/icons
--   Github Api
+-   React.js: Served as the central library for the project, enabling dynamic and responsive user interfaces.
+-   Create React App: Streamlined the setup and configuration of the React application.
+-   JavaScript: Used to implement interactive features and functionalities.
+-   HTML: Provided the foundation for the web content structure.
+-   CSS: Applied to style the web pages.
+-   React Icons: Utilized for incorporating attractive and scalable icons.
+-   Google Fonts/Icons: Added visually appealing typography and icons.
+-   GitHub API: Integrated to showcase GitHub-related information and repositories.
 
-#### Metodology
+#### Methodology
 
--   BEM metodology in css styles
--   React 18 features and rendering
--   Responsive design
--   Mobile first design
-
----
-
-## More stuff done by me
-
-> My "Bin org" - [Washington Yandun](https://github.com/WMYM-Experimental)
+-   BEM methodology in CSS: Employed for maintaining a clear and structured naming convention in CSS styles.
+-   React 18 features and rendering: Leveraged the latest features and rendering optimizations offered by React 18.
+-   Responsive design: Ensured that the portfolio adapts seamlessly to various screen sizes and devices.
+-   Mobile-first design: Prioritized the design and layout for mobile devices, enhancing overall mobile user experience.
