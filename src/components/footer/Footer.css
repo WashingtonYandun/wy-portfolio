@@ -9,6 +9,7 @@ footer {
     align-items: center;
     backdrop-filter: blur(4px);
 }
+
 .footer__container {
     width: 100%;
     display: flex;
@@ -16,6 +17,7 @@ footer {
     align-items: center;
     gap: 1rem;
 }
+
 .footer__socials {
     display: flex;
     justify-content: space-around;
@@ -23,6 +25,7 @@ footer {
     gap: 2rem;
     flex-direction: row;
 }
+
 .footer__social {
     display: flex;
     justify-content: center;
@@ -33,15 +36,18 @@ footer {
     border: 1px solid var(--sky-blue);
     padding: 1rem;
 }
+
 .footer__social:hover {
     border: 1px solid var(--white-color);
 }
+
 /* -------------------------------- Responsive -------------------------------- */
 /*Tablets (medium devices)*/
 @media screen and (max-width: 1200px) {
     footer {
         height: 22rem;
     }
+
     .footer__container {
         flex-direction: column;
     }

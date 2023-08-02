@@ -1,11 +1,13 @@
 #about {
     height: 100%;
 }
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 10%;
 }
+
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -15,23 +17,28 @@
     place-items: center;
     transition: var(--general-transition);
 }
+
 .about__me img {
     border-radius: 2rem;
     width: 90%;
     overflow: hidden;
     transition: var(--general-transition);
 }
+
 .about__me:hover {
     border-radius: 50%;
 }
+
 .about__me img:hover {
     transform: rotate(10deg);
 }
+
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
+
 .about__card {
     background: transparent;
     border: 1px solid var(--grey-color);
@@ -41,35 +48,43 @@
     transition: var(--general-transition);
     color: var(--white-color);
 }
+
 .about__card:hover {
     background: transparent;
     backdrop-filter: blur(3px);
     border-color: var(--sky-blue);
     color: var(--sky-blue);
 }
+
 .about__cards-icon {
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
+
 .about__card h5 {
     font-size: 1rem;
 }
+
 .about__card small {
     font-size: 0.75rem;
 }
+
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--grey-color);
 }
+
 .about__description {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     justify-content: space-between;
 }
+
 .about__description a {
     margin: auto;
 }
+
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
 @media screen and (max-width: 860px) {
@@ -77,26 +92,32 @@
         grid-template-columns: 1fr;
         gap: 0;
     }
+
     .about__me {
         width: 50%;
         margin: 2rem auto 4rem;
     }
+
     .about__content p {
         margin: 1rem 0 1, 5rem;
     }
 }
+
 /* Mobiles (small devices) */
 @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
     }
+
     .about__cards {
         grid-template-columns: 1fr 1fr;
     }
+
     .about__content {
         text-align: center;
     }
+
     .about__content p {
         margin: 1.5rem 0;
     }

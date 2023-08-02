@@ -9,6 +9,7 @@
     font-family: "Poppins", sans-serif;
     text-overflow: ellipsis;
 }
+
 :root {
     --dark-bg: #0e0e0d;
     --dark-blue: #003d5c;
@@ -30,6 +31,7 @@
 
     --navbar-z-index: 10;
 }
+
 ::-webkit-scrollbar {
     width: 3px;
     background-color: transparent;
@@ -40,9 +42,11 @@
     background: transparent;
     backdrop-filter: blur(1px);
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: var(--sky-blue);
 }
+
 h1,
 h2,
 h3,
@@ -53,11 +57,13 @@ h6 {
     margin: 0;
     color: var(--white-color);
 }
+
 img {
     display: block;
     width: var(--max-width);
     object-fit: cover;
 }
+
 /*Put the txture.svg as a background image*/
 body {
     background: var(--dark-bg);
@@ -65,39 +71,48 @@ body {
     background-repeat: repeat;
     line-height: 1.7;
 }
+
 /* -------------------------------- Important Basic Styles -------------------------------- */
 .container {
     width: var(--large-width);
     max-width: var(--max-width);
     margin: 0 auto;
 }
+
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: var(--sky-blue);
 }
+
 section {
     margin-top: 8rem;
     height: 100vh;
 }
+
 section > h2,
 section > h5 {
     text-align: center;
 }
+
 section > h2 {
     color: var(--sky-blue);
     margin-bottom: 3rem;
 }
+
 a {
     color: var(--sky-blue);
     transition: var(--general-transition);
 }
+
 a:hover {
     color: var(--white-color);
 }
+
 .text-light {
     color: var(--white-color);
 }
+
 /* -------------------------------- Buttons Basic Styles -------------------------------- */
 .btn {
     width: max-content;
@@ -108,37 +123,44 @@ a:hover {
     border: 2px solid var(--sky-blue);
     transition: var(--general-transition);
 }
+
 .btn:hover {
     color: var(--white-color);
     background: transparent;
     backdrop-filter: blur(3px);
     border: 2px solid var(--white-color);
 }
+
 .btn-primary {
     border: 3px solid var(--dark-blue);
     background: var(--basic-gradient);
     color: var(--dark-bg);
 }
+
 .btn-primary:hover {
     background: transparent;
     backdrop-filter: blur(3px);
     border: 3px solid var(--dark-blue);
 }
+
 .flex-col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
 }
+
 .flex-row {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     text-align: center;
 }
+
 .row-chain {
     gap: 0.5rem;
 }
+
 /* -------------------------------- Responsive -------------------------------- */
 /*Tablets (medium devices)*/
 @media screen and (max-width: 1024px) {
@@ -150,6 +172,7 @@ a:hover {
         margin-top: 6rem;
     }
 }
+
 /*Mobiles (small devices)*/
 @media screen and (max-width: 600px) {
     .container {
