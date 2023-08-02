@@ -1,11 +1,13 @@
 #experience {
     height: 100%;
 }
+
 .experience__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
+
 .experience {
     background: transparent;
     border-radius: 1% 1% 2rem 2rem;
@@ -13,37 +15,45 @@
     height: 100%;
     transition: var(--general-transition);
 }
+
 .experience:hover {
     background: transparent;
     backdrop-filter: blur(3px);
 }
+
 .experience__head {
     background: var(--sky-blue);
     padding: 2rem;
     border-radius: 1% 1% 50% 50%;
     text-align: center;
 }
+
 .experience__head h3 {
     color: var(--dark-bg);
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
 .experience__list {
     padding: 2rem;
 }
+
 .experience__list li {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
 .experience__list li > p {
     color: var(--grey-color);
 }
+
 .experience__icon {
     color: var(--sky-blue);
     font-size: 1.5rem;
     margin-right: 1rem;
 }
+
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
 @media screen and (max-width: 975px) {

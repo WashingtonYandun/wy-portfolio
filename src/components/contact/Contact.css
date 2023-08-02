@@ -2,18 +2,21 @@
     height: 100%;
     margin-bottom: 12rem;
 }
+
 .contact__container {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
+
 .contact__methods {
     width: 100%;
     gap: 2rem;
     display: flex;
     justify-content: space-around;
 }
+
 .contact__method {
     background: transparent;
     border: 1px solid var(--grey-color);
@@ -24,24 +27,29 @@
     color: var(--white-color);
     min-width: 280px;
 }
+
 .contact__method:hover {
     border: 1px solid var(--sky-blue);
     backdrop-filter: blur(3px);
 }
+
 .contact__method-icon {
     color: var(--white-color);
 }
+
 /* -------------------------------- Responsive -------------------------------- */
 /* Mobiles (small devices) */
 @media (max-width: 1000px) {
     .contact__container {
         flex-direction: column;
     }
+
     .contact__methods {
         max-width: 100%;
         flex-direction: column;
     }
 }
+
 @media (max-width: 680px) {
     .link-to {
         display: none;

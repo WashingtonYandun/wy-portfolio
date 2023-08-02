@@ -3,11 +3,13 @@ header {
     padding-top: 7rem;
     overflow: hidden;
 }
+
 .header__container {
     text-align: center;
     height: 100%;
     position: relative;
 }
+
 .cbtn {
     margin-top: 2.5rem;
     display: flex;
@@ -15,6 +17,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .header__content {
     display: flex;
     flex-direction: column;
@@ -22,6 +25,7 @@ header {
     align-items: center;
     gap: 1rem;
 }
+
 .header__socials {
     display: flex;
     flex-direction: column;
@@ -32,27 +36,32 @@ header {
     bottom: 3rem;
     font-size: 1.5rem;
 }
+
 .header__socials::after {
     content: "";
     width: 2px;
     height: 2rem;
     background: var(--sky-blue);
 }
+
 .wmym {
     margin-top: 4rem;
     width: 20rem;
     height: 20rem;
     left: calc(50% - 10rem);
 }
+
 .me {
     border-radius: 2rem;
     border: 2px solid var(--grey-color);
     transition: var(--general-transition);
 }
+
 .me:hover {
     border: 2px solid var(--sky-blue);
     transform: scale(0.99);
 }
+
 /* CONSOLE ANIMATION */
 .scroll__down {
     display: flex;
@@ -63,6 +72,7 @@ header {
     bottom: 3rem;
     font-size: 1.5rem;
 }
+
 .header__console {
     display: block;
     margin: auto;
@@ -73,6 +83,7 @@ header {
         blink 0.5s infinite step-end alternate-reverse;
     overflow: hidden;
 }
+
 /* -------------------------------- Header animation (animations) -------------------------------- */
 @keyframes typing {
     from {
@@ -85,6 +96,7 @@ header {
         border-color: transparent;
     }
 }
+
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets (medium devices) */
 @media screen and (max-width: 601px) {
@@ -98,10 +110,12 @@ header {
     header {
         height: 100%;
     }
+
     .header__console {
         font-size: 1.5rem;
     }
 }
+
 @media screen and (max-width: 460px) {
     .header__socials,
     .scroll__down {
