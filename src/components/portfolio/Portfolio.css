@@ -122,16 +122,32 @@
 }
 
 .slider__arrow {
-    background-color: transparent;
     display: flex;
     justify-content: center;
     align-self: center;
     text-align: center;
     min-width: 150px;
+    width: max-content;
+    display: inline-block;
+    color: var(--sky-blue);
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.4rem;
+    border: 2px solid var(--sky-blue);
+    transition: var(--general-transition);
 }
 
-.slider__arrow:hover {
+.slider__arrow-left:hover,
+.slider__arrow-left:focus {
     cursor: pointer;
+    box-shadow: inset -6.5em 0 0 0 var(--sky-blue);
+    color: black;
+}
+
+.slider__arrow-right:hover,
+.slider__arrow-right:focus {
+    cursor: pointer;
+    box-shadow: inset 6.5em 0 0 0 var(--sky-blue);
+    color: black;
 }
 
 .project-desc {
