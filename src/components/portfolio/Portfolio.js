@@ -151,14 +151,14 @@ const Portfolio = () => {
 
                 <div className="slider-controls">
                     <span
-                        className="material-symbols-outlined slider__arrow btn"
+                        className="material-symbols-outlined slider__arrow slider__arrow-left"
                         onClick={goToPreviousProject}
                     >
                         arrow_back
                     </span>
 
                     <span
-                        className="material-symbols-outlined slider__arrow btn"
+                        className="material-symbols-outlined slider__arrow slider__arrow-right"
                         onClick={goToNextProject}
                     >
                         arrow_forward
