@@ -9,26 +9,28 @@ import "./NavBar.css";
 const NavBar = () => {
     return (
         <>
-            <nav>
-                <a href="#home">
-                    <AiOutlineHome />
-                </a>
-                <a href="#about">
-                    <SiAboutdotme />
-                </a>
-                <a href="#skills">
-                    <AiOutlineLaptop />
-                </a>
-                <a href="#portfolio">
-                    <AiOutlineBranches />
-                </a>
-                <a href="#experience">
-                    <AiOutlineRise />
-                </a>
-                <a href="#contact">
-                    <AiOutlineContacts />
-                </a>
-            </nav>
+            <div className="navbar-container">
+                <nav className="navbar">
+                    <a href="#home">
+                        <AiOutlineHome />
+                    </a>
+                    <a href="#about">
+                        <SiAboutdotme />
+                    </a>
+                    <a href="#skills">
+                        <AiOutlineLaptop />
+                    </a>
+                    <a href="#portfolio">
+                        <AiOutlineBranches />
+                    </a>
+                    <a href="#experience">
+                        <AiOutlineRise />
+                    </a>
+                    <a href="#contact">
+                        <AiOutlineContacts />
+                    </a>
+                </nav>
+            </div>
         </>
     );
 };

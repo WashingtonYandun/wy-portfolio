@@ -5,7 +5,7 @@ const Cbtn = () => {
     return (
         <div className="cbtn">
             <a href={CV} download className="btn btn-primary">
-                Download Resume
+                Download CV
             </a>
             <a href="#contact" className="btn">
                 Contact me
