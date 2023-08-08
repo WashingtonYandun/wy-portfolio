@@ -58,11 +58,10 @@ export const Skills = () => {
     return (
         <>
             <section id="skills">
-                <h5>What about my skills</h5>
+                <h5>Software Engineering skills</h5>
                 <h2>My Skills</h2>
 
                 <div className="container skills__container">
-
                     <div className="skills__tech">
                         <h3>Tech Skills</h3>
                         <div className="skills__content">
@@ -73,7 +72,9 @@ export const Skills = () => {
                                         className="skills__details"
                                     >
                                         <MdDoneAll className="skills__details-icon" />
-                                        <h5 className="skill__title">{skill.title}</h5>
+                                        <h5 className="skill__title">
+                                            {skill.title}
+                                        </h5>
                                     </article>
                                 );
                             })}
@@ -90,13 +91,14 @@ export const Skills = () => {
                                         className="skills__details"
                                     >
                                         <MdDoneAll className="skills__details-icon" />
-                                        <h5 className="skill__title">{skill.title}</h5>
+                                        <h5 className="skill__title">
+                                            {skill.title}
+                                        </h5>
                                     </article>
                                 );
                             })}
                         </div>
                     </div>
-
                 </div>
             </section>
         </>
