@@ -51,7 +51,7 @@ const Portfolio = () => {
 
     return (
         <section id="portfolio">
-            <h5>Most Important projects</h5>
+            <h5>Projects on GitHub</h5>
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
@@ -139,7 +139,7 @@ const Portfolio = () => {
                                     description="link to project"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="footer__social"
+                                    className="footer__social project__button "
                                 >
                                     <span className="link-to">Go to</span>
                                     {<VscGithub />}

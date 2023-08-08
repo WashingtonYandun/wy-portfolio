@@ -34,8 +34,8 @@ export const Experience = () => {
     return (
         <>
             <section id="experience">
-                <h5>What is my Experience</h5>
-                <h2>Work experiences I have had</h2>
+                <h5>Places where I added value</h5>
+                <h2>Work experiences</h2>
                 <div className="container experience__container">
                     {typeOfExperience.map((type) => {
                         return (
