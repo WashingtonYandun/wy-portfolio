@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b1e97e0.css",
-    "main.js": "/static/js/main.25463119.js",
-    "static/media/washington_yandun__cv.pdf": "/static/media/washington_yandun__cv.6ec60b26ad6ac4b82959.pdf",
-    "static/media/ascii_wmym2.jpeg": "/static/media/ascii_wmym2.7ad20717bdf8bfcf5118.jpeg",
-    "static/media/ascii_wmym.jpg": "/static/media/ascii_wmym.e2614db11b18db66687b.jpg",
-    "static/media/Sprinkle.svg": "/static/media/Sprinkle.f37a02d8f43ad4ff7361.svg",
-    "index.html": "/index.html",
-    "main.7b1e97e0.css.map": "/static/css/main.7b1e97e0.css.map",
-    "main.25463119.js.map": "/static/js/main.25463119.js.map"
+    "main.css": "/wy-portfolio/static/css/main.2963d03b.css",
+    "main.js": "/wy-portfolio/static/js/main.dc65b287.js",
+    "static/media/washington_yandun__cv.pdf": "/wy-portfolio/static/media/washington_yandun__cv.6ec60b26ad6ac4b82959.pdf",
+    "static/media/ascii_wmym2.jpeg": "/wy-portfolio/static/media/ascii_wmym2.7ad20717bdf8bfcf5118.jpeg",
+    "static/media/ascii_wmym.jpg": "/wy-portfolio/static/media/ascii_wmym.e2614db11b18db66687b.jpg",
+    "static/media/Sprinkle.svg": "/wy-portfolio/static/media/Sprinkle.f37a02d8f43ad4ff7361.svg",
+    "index.html": "/wy-portfolio/index.html",
+    "main.2963d03b.css.map": "/wy-portfolio/static/css/main.2963d03b.css.map",
+    "main.dc65b287.js.map": "/wy-portfolio/static/js/main.dc65b287.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b1e97e0.css",
-    "static/js/main.25463119.js"
+    "static/css/main.2963d03b.css",
+    "static/js/main.dc65b287.js"
   ]
 }
