@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b1e97e0.css",
-    "main.js": "/static/js/main.25463119.js",
-    "static/media/washington_yandun__cv.pdf": "/static/media/washington_yandun__cv.6ec60b26ad6ac4b82959.pdf",
-    "static/media/ascii_wmym2.jpeg": "/static/media/ascii_wmym2.7ad20717bdf8bfcf5118.jpeg",
-    "static/media/ascii_wmym.jpg": "/static/media/ascii_wmym.e2614db11b18db66687b.jpg",
-    "static/media/Sprinkle.svg": "/static/media/Sprinkle.f37a02d8f43ad4ff7361.svg",
-    "index.html": "/index.html",
-    "main.7b1e97e0.css.map": "/static/css/main.7b1e97e0.css.map",
-    "main.25463119.js.map": "/static/js/main.25463119.js.map"
+    "main.css": "./static/css/main.86b4c836.css",
+    "main.js": "./static/js/main.8c4ca531.js",
+    "static/media/washington_yandun__cv.pdf": "./static/media/washington_yandun__cv.6ec60b26ad6ac4b82959.pdf",
+    "static/media/ascii_wmym2.jpeg": "./static/media/ascii_wmym2.7ad20717bdf8bfcf5118.jpeg",
+    "static/media/ascii_wmym.jpg": "./static/media/ascii_wmym.e2614db11b18db66687b.jpg",
+    "static/media/Sprinkle.svg": "./static/media/Sprinkle.f37a02d8f43ad4ff7361.svg",
+    "index.html": "./index.html",
+    "main.86b4c836.css.map": "./static/css/main.86b4c836.css.map",
+    "main.8c4ca531.js.map": "./static/js/main.8c4ca531.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b1e97e0.css",
-    "static/js/main.25463119.js"
+    "static/css/main.86b4c836.css",
+    "static/js/main.8c4ca531.js"
   ]
 }
