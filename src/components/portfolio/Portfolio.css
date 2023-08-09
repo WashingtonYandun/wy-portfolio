@@ -168,6 +168,21 @@
     color: var(--sky-blue);
 }
 
+.footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid var(--sky-blue);
+    padding: 1rem;
+}
+
+.footer__social:hover {
+    border: 2px solid var(--white-color);
+}
+
 /* -------------------------------- Responsive -------------------------------- */
 /* Tablets and mobile (medium and small devices) */
 @media screen and (max-width: 860px) {
