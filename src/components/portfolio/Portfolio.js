@@ -139,7 +139,7 @@ const Portfolio = () => {
                                     description="link to project"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="footer__social project__button "
+                                    className="footer__social"
                                 >
                                     <span className="link-to">Go to</span>
                                     {<VscGithub />}
