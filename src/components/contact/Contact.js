@@ -1,5 +1,6 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import { VscGithub } from "react-icons/vsc";
 
 import "./Contact.css";
 
@@ -20,6 +21,14 @@ const Contact = () => {
             icon: <AiOutlineLinkedin className="contact__method-icon" />,
             link: "https://www.linkedin.com/in/washington-yandun-3a95b2226/",
             description: "Connect with me",
+        },
+        {
+            id: 3,
+            name: "GitHub",
+            value: "washingtonYandun",
+            icon: <VscGithub className="contact__method-icon" />,
+            link: "https://github.com/WashingtonYandun",
+            description: "Let's code",
         },
     ];
 
