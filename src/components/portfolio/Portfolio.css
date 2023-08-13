@@ -97,16 +97,15 @@
 .slider-dot {
     width: 10px;
     height: 10px;
-    background-color: var(--grey-color);
+    background-color: var(--sky-blue);
     border-radius: 50%;
     cursor: pointer;
     transition: var(--general-transition);
 }
 
 .slider-dot.active {
-    background-color: var(--grey-color);
     transform: scale(1.5);
-    border: 3px solid var(--sky-blue);
+    border: 2px solid var(--white-color);
 }
 
 .slider-controls {
